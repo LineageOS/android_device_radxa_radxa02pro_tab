@@ -8,7 +8,7 @@ import sys
 import subprocess
 
 # Path to the script you want to run
-script_path = '../radxa02/extract-files.py'
+script_path = '../radxa02pro/extract-files.py'
 
 # Run the script with arguments passed to this script
 subprocess.run(['python', script_path] + sys.argv[1:])
